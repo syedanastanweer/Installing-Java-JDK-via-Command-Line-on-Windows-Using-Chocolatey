@@ -18,19 +18,25 @@ Copy and paste the following command into the Command Prompt, then press `Enter`
 Verify Chocolatey Installation
 Run the following command to check if Chocolatey is installed successfully:
 
+```bash 
 choco --version
+```
 
 You should see the version number of Chocolatey if it was installed correctly.
 
 Step 2: Install Java JDK Using Chocolatey
+
 Install the Latest Java JDK
 In the Command Prompt, run the following command to install the latest version of OpenJDK:
 
+```bash 
 choco install openjdk
+```
 
 This command will download and install the latest version of the OpenJDK.
 
 Set the Environment Variables
+
 Chocolatey should handle setting the JAVA_HOME and PATH variables automatically. However, if it doesn't, follow these steps to set them manually:
 
 Open the Environment Variables Dialog:
@@ -46,9 +52,12 @@ Edit the PATH Variable:
 
 In the System variables section, find and select the Path variable, then click Edit.
 Click New and add the path to the bin directory of your JDK installation: %JAVA_HOME%\bin.
+
 Step 3: Verify Java Installation
 Open a new Command Prompt and run:
 
+```bash 
 java -version
+```
 
 You should see the version information for the newly installed Java JDK.
