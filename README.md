@@ -11,9 +11,9 @@ This guide provides step-by-step instructions to install the latest Java JDK on 
 
 Copy and paste the following command into the Command Prompt, then press `Enter`:
 
-```shell
+```bash
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin" ```
-
+```
 
 Verify Chocolatey Installation
 Run the following command to check if Chocolatey is installed successfully:
